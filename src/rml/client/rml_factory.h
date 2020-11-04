@@ -33,7 +33,6 @@
 #define RML_SERVER_NAME "libirml" DEBUG_SUFFIX ".so"
 #else
 //#error Unknown OS
-#warning "WASMPORT: dynamic linking not supported"
 #define RML_SERVER_NAME "libirml" DEBUG_SUFFIX ".so"
 #endif
 

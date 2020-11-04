@@ -18,7 +18,6 @@
 global:
 
 #define __TBB_SYMBOL( sym ) sym;
-#warning "***************************** WASMPORT __TBB_SYMBOL"
 #include "wasm32-tbb-export.lst"
 
 local:

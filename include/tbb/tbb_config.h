@@ -520,7 +520,6 @@ There are four cases that are supported:
 #endif
 
 #ifdef __TBB_WEAK_SYMBOLS_PRESENT
-    #warning "WASMPORT: __TBB_WEAK_SYMBOLS_PRESENT"
 #endif
 
 /** __TBB_DYNAMIC_LOAD_ENABLED describes the system possibility to load shared libraries at run time **/

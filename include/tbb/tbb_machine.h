@@ -112,7 +112,6 @@
 
 #include "tbb_stddef.h"
 
-#warning "WASMPORT: tbb_machine.h"
 
 namespace tbb {
 namespace internal { //< @cond INTERNAL
