@@ -235,7 +235,6 @@ template<> struct atomic_selector<8> {
         #error "WASM"
         #include "machine/linux_ia32.h"
     #elif __wasm32__
-        #warning "wasmport machine/linux_wasm32.h"
         #include "machine/linux_wasm32.h"        
     #elif __x86_64__
         #error "WASM"
