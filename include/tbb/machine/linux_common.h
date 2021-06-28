@@ -20,7 +20,9 @@
 
 
 #include <sched.h>
-#define __TBB_Yield()  sched_yield()
+#ifndef __TBB_Yield
+    #define __TBB_Yield()  sched_yield()
+#endif
 
 #include <unistd.h>
 /* Futex definitions */
