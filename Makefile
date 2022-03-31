@@ -71,8 +71,8 @@ clean_examples:
 	$(shell $(MAKE) -s -i -r -C examples -f Makefile tbb_root=.. clean >$(NUL) 2>$(NUL))
 
 mkdir:
-	$(shell $(MD) "$(work_dir)_release" >$(NUL) 2>$(NUL))
-	$(shell $(MD) "$(work_dir)_debug" >$(NUL) 2>$(NUL))
+	$(shell $(MD) "$(work_dir)_release" >$(NUL))
+	$(shell $(MD) "$(work_dir)_debug" >$(NUL))
 	@echo Created $(work_dir)_release and ..._debug directories
 
 info:
